@@ -23,7 +23,7 @@
 
 ### features
 
-- 🚀 is compatible with VUe2 and VUe3
+- 🚀 is compatible with Vue2 and Vue3
 - 🚀 Rapidly develop mobile service functions
 - 💪 based on excellent libraries such as Vant
 

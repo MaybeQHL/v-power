@@ -4,12 +4,24 @@
 
 ```bash
 # npm
-npm i @maybecode/v-power
+
+# vue2
+npm i vant@2 @vue/composition-api @maybecode/v-power 
+ 
+# vue3 
+npm i vant@3 @maybecode/v-power
+
 ```
 
 ```bash
 # yarn
-yarn add @maybecode/v-power
+
+# vue2
+yarn add vant@2 @vue/composition-api @maybecode/v-power
+ 
+# vue3 
+yarn add vant@3 @maybecode/v-power
+
 ```
 
 ### hint
