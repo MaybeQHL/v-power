@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "preserve",
+    "target": "ES2019",
+    "module": "es2015",
+    "strict": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "noImplicitThis": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@demo/*": [
+        "docs/site/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*",
+    "types/**/*",
+    "docs/**/*",
+    "test/**/*"
+  ],
+  "exclude": [
+    "node_modules/**/*"
+  ]
+}

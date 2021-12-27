@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "declaration": true,
+    "declarationDir": "./dist-lib/v3",
+    "emitDeclarationOnly": true
+  },
+  "include": [
+    "./dist-lib/v3/es/**/*",
+    "./dist-lib/v3/lib/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/test/**/*",
+    "**/demo/**/*"
+  ]
+}
