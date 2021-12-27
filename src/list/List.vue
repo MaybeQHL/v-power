@@ -223,7 +223,8 @@ export default defineComponent({
 
     const searchData = () => {
       // clear list
-      emitModel(emit, 'input', 'list', []);
+      // emitModel(emit, 'input', 'list', []);
+      emit(`update:list`, []);
       state.finished = false;
       state.error = false;
       // reset page

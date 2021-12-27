@@ -5,8 +5,15 @@
       <router-link to="/about">About</router-link>
     </div>
     <router-view/> -->
+
     <vp-container title="标题">
-      <vp-list :list.sync="list" :total="total" :requestFn="requestFn">
+      <button @click="searchData">搜索</button>
+      <vp-list
+        ref="mList"
+        :list.sync="list"
+        :total="total"
+        :requestFn="requestFn"
+      >
         <template #loading> 加载中... </template>
         <div v-for="item in list" style="height: 150px" :key="item.name">
           {{ item }}
@@ -32,6 +39,9 @@ export default {
     };
   },
   methods: {
+    searchData() {
+      this.$refs.mList.searchData();
+    },
     async requestFn(page) {
       // 异步更新数据
       const result = await axios.get(

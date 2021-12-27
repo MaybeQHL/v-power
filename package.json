@@ -1,6 +1,6 @@
 {
     "name": "@maybecode/v-power",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "Mobile UI Components built on Vue",
     "main": "dist-lib/v3/lib/index.js",
     "module": "dist-lib/v3/es/index.js",
