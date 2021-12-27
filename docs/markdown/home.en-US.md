@@ -1,6 +1,6 @@
 <div class="van-doc-card" style="background:#fff;padding:10px;border-radius:20px;margin-bottom:15px;">
   <div class="van-doc-intro" style="text-align:center;">
-    <img class="van-doc-intro__logo" style="width: 200px; height: 200px;" src="https://cdntest-1251804846.cos.ap-guangzhou.myqcloud.com/logo.png">
+    <p align="center">  <img class="van-doc-intro__logo" style="width: 200px; height: 200px;" src="https://cdntest-1251804846.cos.ap-guangzhou.myqcloud.com/logo.png"></p>
     <h2 style="margin: 0; font-size: 36px; line-height: 60px;">v-power</h2>
      <p align="center" >
     <img src="https://img.shields.io/npm/v/@maybecode/v-power?style=flat-square" alt="npm version"  style="margin-right:5px;" />
