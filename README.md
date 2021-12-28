@@ -1,6 +1,6 @@
 <div class="van-doc-card" style="background:#fff;padding:10px;border-radius:20px;margin-bottom:15px;">
   <div class="van-doc-intro"  style="text-align:center;">
-     <p align="center">  <img class="van-doc-intro__logo" style="width: 200px; height: 200px;" src="https://cdntest-1251804846.cos.ap-guangzhou.myqcloud.com/logo.png"></p>
+     <p align="center">  <img class="van-doc-intro__logo" width="200" height="200" style="width: 200px; height: 200px;" src="https://cdntest-1251804846.cos.ap-guangzhou.myqcloud.com/logo.png"></p>
     <h2 style="margin: 0; font-size: 36px; line-height: 60px;">v-power</h2>
      <p align="center" >
     <img src="https://img.shields.io/npm/v/@maybecode/v-power?style=flat-square" alt="npm version"  style="margin-right:5px;" />
@@ -17,7 +17,7 @@
 
 ### Prompt
 
-> highly recommended[vue-demi](https://github.com/vueuse/vue-demi)(a package compatible with VUE2 and VUE3) development project
+> highly recommended [vue-demi] (https://github.com/vueuse/vue-demi)(a package compatible with VUE2 and VUE3) development project
 
 > This component library sample code is based on vue-Demi compositional API demonstration, options API way to modify some code.
 

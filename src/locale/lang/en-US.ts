@@ -10,4 +10,13 @@ export default {
     successText: '',
     refLoadingText: 'Loading...',
   },
+  vpCard: {
+    title: 'Title'
+  },
+  vpWxImgsUploader: {
+    noSdkText: 'Please pass in the initialized wechat JSSDK',
+    maxCount: 'The maximum number of uploads has been reached',
+    uploadError: 'Upload image error.',
+    uploading: 'uploading...'
+  }
 };

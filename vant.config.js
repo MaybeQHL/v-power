@@ -3,7 +3,6 @@ module.exports = {
   build: {
     srcDir: 'src',
     namedExport: true,
-    skipInstall: ['lazyload'],
     site: {
       publicPath: '/v-power',
     },
@@ -100,15 +99,26 @@ module.exports = {
                 path: 'list',
                 title: 'List 列表',
               },
+              {
+                path: 'card',
+                title: 'Card 卡片',
+              },
             ],
           },
+          {
+            title: '微信公众号',
+            items: [{
+              path: 'wx-imgs-uploader',
+              title: 'WxImgsUploader 多图上传',
+            }]
+          }
         ],
       },
       'en-US': {
         title: 'v-power',
         description: 'Mobile UI Components built on Vue',
         logo:
-          'https://cdntest-1251804846.cos.ap-guangzhou.myqcloud.com/logo.svg',
+          'https://cdntest-1251804846.cos.ap-guangzhou.myqcloud.com/logo.png',
         langLabel: 'EN',
         links: [
           {
@@ -157,8 +167,19 @@ module.exports = {
                 path: 'list',
                 title: 'List',
               },
+              {
+                path: 'card',
+                title: 'Card',
+              },
             ],
           },
+          {
+            title: 'Wechat official account',
+            items: [{
+              path: 'wx-imgs-uploader',
+              title: 'WxImgsUploader',
+            }]
+          }
         ],
       },
     },

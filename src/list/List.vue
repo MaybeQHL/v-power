@@ -101,7 +101,7 @@ export default defineComponent({
      */
     requestFn: {
       type: Function as PropType<(...reqData: RequestParams) => Promise<void>>,
-      require: true,
+      required: true,
     },
     /**
      * show toast

@@ -2,7 +2,9 @@
   <demo-block :title="t('title')">
     <vp-container :title="t('conTitle')" @clickLeft="clickLeft">
       <template #headRight> {{ t('hearRight') }} </template>
-      {{ t('content') }}
+      <div style="height: 1800px">
+        {{ t('content') }}
+      </div>
     </vp-container>
   </demo-block>
 </template>

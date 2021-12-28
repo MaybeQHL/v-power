@@ -9,3 +9,4 @@ export * from './format/number';
 export * from './format/string';
 export * from './console';
 export * from './vue';
+export * from './transform';

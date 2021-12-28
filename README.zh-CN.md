@@ -1,6 +1,6 @@
 <div class="van-doc-card" style="background:#fff;padding:10px;border-radius:20px;margin-bottom:15px;">
   <div class="van-doc-intro " style="text-align:center;">
-   <p align="center">  <img class="van-doc-intro__logo" style="width: 200px; height: 200px;" src="https://cdntest-1251804846.cos.ap-guangzhou.myqcloud.com/logo.png"></p>
+   <p align="center">  <img class="van-doc-intro__logo"  width="200" height="200"  style="width: 200px; height: 200px;" src="https://cdntest-1251804846.cos.ap-guangzhou.myqcloud.com/logo.png"></p>
     <h2 style="margin: 0; font-size: 36px; line-height: 60px;">v-power</h2>
      <p align="center" >
     <img src="https://img.shields.io/npm/v/@maybecode/v-power?style=flat-square" alt="npm version"  style="margin-right:5px;" />
@@ -17,7 +17,7 @@
 
 ### 提示
 
-> 强烈推荐[vue-demi](https://github.com/vueuse/vue-demi)(一款兼容 vue2 和 vue3 的包)开发项目
+> 强烈推荐 [vue-demi] (https://github.com/vueuse/vue-demi)(一款兼容 vue2 和 vue3 的包)开发项目
 
 > 本组件库示例代码均基于 vue-demi compositional api 演示, options api 方式需自行修改部分代码。
 

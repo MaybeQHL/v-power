@@ -40,10 +40,14 @@ Vue.use(Container);
 
 ### Props
 
-| parameters | explain    | type               | default   |
-| ---------- | ---------- | ------------------ | --------- |
-| title      | title      | _string_           | `title`   |
-| background | background | _string \| object_ | `#f5f5f5` |
+| parameters          | explain                                    | type      | default   |
+| ------------------- | ------------------------------------------ | --------- | --------- |
+| title               | title                                      | _string_  | `title`   |
+| background          | background                                 | _string_  | `#f5f5f5` |
+| noContentPadding    | content padding                            | _boolean_ | false     |
+| showNavLeft         | navbar left                                | _boolean_ | true      |
+| fixed               | Whether to fixed top                       | _boolean_ | false     |
+| safe-area-inset-top | Whether to enable top safe area adaptation | _boolean_ | false     |
 
 ### Events
 

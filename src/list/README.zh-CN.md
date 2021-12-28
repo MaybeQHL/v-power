@@ -108,15 +108,25 @@ Vue.use(List);
 
 ### Props
 
-| 参数 | 说明 | 类型 | 默认值 |
-| --- | --: | --: | --: |
-| v-model:list (vue3.x) 或 list.sync (vue2.x) | 列表数据 | _[]_ | [] |
-| total | 总数量 | _number_ | 0 |
-| loadingText | 上拉加载过程提示文案 | _stirng_ | 加载中... |
-| requestFn | 数据请求函数 | _(page:number) => void_ | - |
+| 参数                                        |                 说明 |                    类型 |    默认值 |
+| ------------------------------------------- | -------------------: | ----------------------: | --------: |
+| v-model:list (vue3.x) 或 list.sync (vue2.x) |             列表数据 |                    _[]_ |        [] |
+| total                                       |               总数量 |                _number_ |         0 |
+| requestFn                                   |         数据请求函数 | _(page:number) => void_ |         - |
+| loadingText                                 | 上拉加载过程提示文案 |                _stirng_ | 加载中... |
 
 ### Refs
 
 | 名称       | 说明     | 回调参数 |
 | ---------- | -------- | -------- |
 | searchData | 搜索数据 | -        |
+
+### Slots
+
+| 名称       | 说明         |
+| ---------- | ------------ |
+| default    | 内容         |
+| refLoading | 刷新加载提示 |
+| refLoosing | 刷新释放提示 |
+| refPulling | 刷新下拉提示 |
+| loading    | 上拉加载提示 |

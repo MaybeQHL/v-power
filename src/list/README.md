@@ -108,15 +108,26 @@ Vue.use(List);
 
 ### Props
 
-| parameter | explain | type | default |
-| --- | --: | --: | --: |
-| v-model:list (vue3.x) or list.sync (vue2.x) | list data | _[]_ | [] |
-| total | total | _number_ | 0 |
-| requestFn | Data request function | _(page:number) => void_ | - |
-| loadingText | Text to show when pull on loading | _stirng_ | Loading... |
+| parameter                                   |                           explain |                    type |    default |
+| ------------------------------------------- | --------------------------------: | ----------------------: | ---------: |
+| v-model:list (vue3.x) or list.sync (vue2.x) |                         list data |                    _[]_ |         [] |
+| total                                       |                             total |                _number_ |          0 |
+| requestFn                                   |             Data request function | _(page:number) => void_ |          - |
+| loadingText                                 | Text to show when pull on loading |                _stirng_ | Loading... |
 
 ### Refs
 
 | name       | explain     | callback |
 | ---------- | ----------- | -------- |
 | searchData | Search data | -        |
+
+
+### Slots
+
+| name       | explain                |
+| ---------- | ---------------------- |
+| default    | content                |
+| refLoading | refresh loading prompt |
+| refLoosing | refresh loosing prompt |
+| refPulling | refresh pulling prompt |
+| loading    | pull up loading prompt |
