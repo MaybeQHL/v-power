@@ -17,7 +17,7 @@
 
 ### Prompt
 
-> highly recommended [vue-demi] (https://github.com/vueuse/vue-demi)(a package compatible with VUE2 and VUE3) development project
+> highly recommended [vue-demi](https://github.com/vueuse/vue-demi) (a package compatible with VUE2 and VUE3) development project
 
 > This component library sample code is based on vue-Demi compositional API demonstration, options API way to modify some code.
 
