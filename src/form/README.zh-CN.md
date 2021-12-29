@@ -144,6 +144,7 @@ export default defineComponent({
 | showErrorMsg      | 是否在校验不通过时在输入框下方展示错误提示 | _boolean_ |    true |
 | customError       |                是否定制错误提示(关闭Toast) | _boolean_ |   false |
 | labelWidth        |                          表单项 label 宽度 |  _string_ |   6.2em |
+| btnRound          |                             是否为圆形按钮 | _boolean_ |   false |
 
 
 ### Events

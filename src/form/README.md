@@ -144,7 +144,7 @@ export default defineComponent({
 | showErrorMsg      | Whether to display an error message below the input box when the verification fails | _boolean_ |    true |
 | customError       |                                 Whether to customize the error prompt (close Toast) | _boolean_ |   false |
 | labelWidth        |                                                            Width of form item label |  _string_ |   6.2em |
-
+| btnRound          |                                                     Whether it is a circular button | _boolean_ |   false |
 
 ### Events
 
