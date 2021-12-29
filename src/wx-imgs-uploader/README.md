@@ -28,7 +28,7 @@ app.use(WxImgsUploader);
 import Vue from 'vue-demi';
 import {
     WxImgsUploader
-} from 'v-power';
+} from '@maybecode/v-power';
 
 Vue.use(WxImgsUploader);
 ```
@@ -114,11 +114,11 @@ Vue.use(WxImgsUploader);
 
 ### Props
 
-| parameter                                   |                           explain |                    type |    default |
-| ------- | -------: | -------: | -----: |
-| v-model:fileList (vue3.x) or fileList.sync (vue2.x) |             Image List |                    _FileItem[]_ |        [] |
-| wxSdk                                               | The wechat SDK has been initialized with permissions |     _object_ |      - |
-| title                                               |            Upload area text |     _string_ |      - |
-| icon                                                |          Upload area icon|     _string_ |      - |
-| count                                               |        Maximum number of uploaded images |     _number_ |      9 |
-| size                                                |            Upload area size |     _string_ |   22vw |
+| parameter                                           |                                              explain |         type | default |
+| --------------------------------------------------- | ---------------------------------------------------: | -----------: | ------: |
+| v-model:fileList (vue3.x) or fileList.sync (vue2.x) |                                           Image List | _FileItem[]_ |      [] |
+| wxSdk                                               | The wechat SDK has been initialized with permissions |     _object_ |       - |
+| title                                               |                                     Upload area text |     _string_ |       - |
+| icon                                                |                                     Upload area icon |     _string_ |       - |
+| count                                               |                    Maximum number of uploaded images |     _number_ |       9 |
+| size                                                |                                     Upload area size |     _string_ |    22vw |

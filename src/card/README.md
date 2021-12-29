@@ -21,7 +21,7 @@ app.use(Card);
 
 ```js
 import Vue from 'vue-demi';
-import { Card } from 'v-power';
+import { Card } from '@maybecode/v-power';
 
 Vue.use(Card);
 ```

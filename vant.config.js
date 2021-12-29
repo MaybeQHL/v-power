@@ -103,6 +103,10 @@ module.exports = {
                 path: 'card',
                 title: 'Card 卡片',
               },
+              {
+                path: 'form',
+                title: 'Form 表单',
+              },
             ],
           },
           {
@@ -170,6 +174,10 @@ module.exports = {
               {
                 path: 'card',
                 title: 'Card',
+              },
+              {
+                path: 'form',
+                title: 'Form',
               },
             ],
           },

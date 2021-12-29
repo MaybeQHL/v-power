@@ -17,5 +17,9 @@ export default {
     maxCount: '已达到最大上传数量',
     uploadError: '图片上传失败',
     uploading: '图片上传中...'
+  },
+  vpForm: {
+    submitBtnText: '确认',
+    cancelBtnText: '取消'
   }
 };

@@ -23,7 +23,7 @@ app.use(Container);
 
 ```js
 import Vue from 'vue-demi';
-import { Container } from 'v-power';
+import { Container } from '@maybecode/v-power';
 
 Vue.use(Container);
 ```

@@ -18,5 +18,9 @@ export default {
     maxCount: 'The maximum number of uploads has been reached',
     uploadError: 'Upload image error.',
     uploading: 'uploading...'
+  },
+  vpForm: {
+    submitBtnText: 'Confirm',
+    cancelBtnText: 'Cancel'
   }
 };

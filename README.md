@@ -26,7 +26,9 @@
 - 🚀 is compatible with Vue2 and Vue3
 - 🚀 Rapidly develop mobile service functions
 - 💪 based on excellent libraries such as Vant
-
+- 💻 All components are screen adaptive
+- 💚 Package compatible wechat public account components
+  
 ### Special thanks
 
 - [Vue](https://github.com/vuejs)

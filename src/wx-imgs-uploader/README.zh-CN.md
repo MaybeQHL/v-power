@@ -28,7 +28,7 @@ app.use(WxImgsUploader);
 import Vue from 'vue-demi';
 import {
     WxImgsUploader
-} from 'v-power';
+} from '@maybecode/v-power';
 
 Vue.use(WxImgsUploader);
 ```

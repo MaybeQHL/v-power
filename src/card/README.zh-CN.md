@@ -27,7 +27,7 @@ app.use(Card);
 import Vue from 'vue-demi';
 import {
     Card
-} from 'v-power';
+} from '@maybecode/v-power';
 
 Vue.use(Card);
 ```

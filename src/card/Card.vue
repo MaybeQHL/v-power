@@ -36,7 +36,7 @@ export default defineComponent({
       default: function () {
         return t('title');
       },
-    },
+    } as any,
     classes: Array,
     radius: {
       type: [String],

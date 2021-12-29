@@ -128,7 +128,7 @@ export default defineComponent({
 
     const uploadImage = (localId): Promise<string> => {
       return new Promise((resolve, reject) => {
-        props?.wxSdk.uploadImage({
+        (props as any).wxSdk.uploadImage({
           localId: localId, // 需要上传的图片的本地ID，由chooseImage接口获得
           isShowProgressTips: 0, // 默认为1，显示进度提示
           success: function (res) {
@@ -175,7 +175,7 @@ export default defineComponent({
           (window as any).__wxjs_is_wkwebview
         );
         if ((window as any).__wxjs_is_wkwebview) {
-          props?.wxSdk.getLocalImgData({
+          (props as any).wxSdk.getLocalImgData({
             localId: localId,
             success: function (res) {
               let localData = res.localData;
@@ -204,7 +204,7 @@ export default defineComponent({
         Toast(t('maxCount'));
         return;
       }
-      props?.wxSdk.chooseImage({
+      (props as any).wxSdk.chooseImage({
         count: count, // 默认9
         sizeType: ['original', 'compressed'], // 可以指定是原图还是压缩图，默认二者都有
         sourceType: ['album', 'camera'], // 可以指定来源是相册还是相机，默认二者都有

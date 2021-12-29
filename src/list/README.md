@@ -21,7 +21,7 @@ app.use(List);
 
 ```js
 import Vue from 'vue-demi';
-import { List } from 'v-power';
+import { List } from '@maybecode/v-power';
 
 Vue.use(List);
 ```
