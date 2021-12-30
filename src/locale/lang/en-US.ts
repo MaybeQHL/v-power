@@ -22,5 +22,9 @@ export default {
   vpForm: {
     submitBtnText: 'Confirm',
     cancelBtnText: 'Cancel'
+  },
+  vpVerifyButton: {
+    text: 'Send Code',
+    suffix: 's'
   }
 };

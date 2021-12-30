@@ -2,13 +2,13 @@
 
 ### 介绍
 
-Vant 采用中文作为默认语言，同时支持多语言切换，请按照下方教程进行国际化设置。
+v-power 采用中文作为默认语言，同时支持多语言切换，请按照下方教程进行国际化设置。
 
 ## 使用方法
 
 ### 多语言切换
 
-Vant 通过 Locale 组件实现多语言支持，使用 `Locale.use` 方法可以切换当前使用的语言。
+v-power 通过 Locale 组件实现多语言支持，使用 `Locale.use` 方法可以切换当前使用的语言。
 
 ```js
 import { Locale } from '@maybecode/v-power';

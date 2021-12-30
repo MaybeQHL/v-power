@@ -86,6 +86,10 @@ module.exports = {
                 path: 'contribution',
                 title: '贡献指南',
               },
+              {
+                path: 'locale',
+                title: '国际化',
+              },
             ],
           },
           {
@@ -106,6 +110,10 @@ module.exports = {
               {
                 path: 'form',
                 title: 'Form 表单',
+              },
+              {
+                path: 'verify-button',
+                title: 'VerifyButton 获取验证码',
               },
             ],
           },
@@ -158,6 +166,10 @@ module.exports = {
                 path: 'contribution',
                 title: 'Contribution',
               },
+              {
+                path: 'locale',
+                title: 'Locale',
+              },
             ],
           },
           {
@@ -178,6 +190,10 @@ module.exports = {
               {
                 path: 'form',
                 title: 'Form',
+              },
+              {
+                path: 'verify-button',
+                title: 'VerifyButton',
               },
             ],
           },

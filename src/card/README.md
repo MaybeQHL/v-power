@@ -53,15 +53,14 @@ Vue.use(Card);
 
 ```html
 <template>
-    <vp-card :classes="['demo-card']">
+    <vp-card :classes="['demo-card']" radius="20px">
         content
     </vp-card>
 </template>
 
 <style scoped>
     .demo-card {
-        margin: 0;
-        padding: 0;
+       background-color: pink;
     }
 </style>
 ```

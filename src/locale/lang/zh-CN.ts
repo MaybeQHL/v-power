@@ -21,5 +21,9 @@ export default {
   vpForm: {
     submitBtnText: '确认',
     cancelBtnText: '取消'
+  },
+  vpVerifyButton: {
+    text: '发送验证码',
+    suffix: '秒'
   }
 };

@@ -7,6 +7,7 @@
       :left-text="leftText"
       :fixed="fixed"
       :safe-area-inset-top="safeAreaInsetTop"
+      v-bind="mergeProps"
     >
       <template #right v-if="$slots.headLeft && showNavLeft">
         <slot name="headLeft"></slot>
@@ -26,7 +27,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue-demi';
+import { computed, defineComponent } from 'vue-demi';
 import { createNamespace } from '../utils';
 import { NavBar } from 'vant';
 
@@ -63,13 +64,16 @@ export default defineComponent({
     },
     safeAreaInsetTop: Boolean,
   },
-  setup(props: any, { emit, slots }: any) {
+  setup(props: any, { emit, slots, attrs }) {
     const clickLeft = () => {
       emit('clickLeft');
     };
-
+    const mergeProps = computed(() => {
+      return Object.assign({ ...attrs });
+    });
     return {
       clickLeft,
+      mergeProps,
     };
   },
 });

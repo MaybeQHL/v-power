@@ -1,6 +1,6 @@
 <template>
   <div class="vp-card" :class="classes" :style="{ 'border-radius': radius }">
-    <div class="vp-card-tilte">
+    <div class="vp-card-tilte" v-if="title || $slots.title">
       <template v-if="$slots.title">
         <slot name="title"></slot>
       </template>
@@ -33,10 +33,7 @@ export default defineComponent({
   props: {
     title: {
       type: String,
-      default: function () {
-        return t('title');
-      },
-    } as any,
+    },
     classes: Array,
     radius: {
       type: [String],

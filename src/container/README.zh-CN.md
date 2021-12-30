@@ -40,14 +40,15 @@ Vue.use(Container);
 
 ### Props
 
-| 参数                | 说明                   | 类型      | 默认值    |
-| ------------------- | ---------------------- | --------- | --------- |
-| title               | 标题                   | _string_  | `标题`    |
-| background          | 内容背景               | _string_  | `#f5f5f5` |
-| noContentPadding    | 内容padding            | _boolean_ | false     |
-| showNavLeft         | 导航栏左侧             | _boolean_ | true      |
-| fixed               | 是否固定在顶部         | _boolean_ | false     |
-| safe-area-inset-top | 是否开启顶部安全区适配 | _boolean_ | false     |
+| 参数                | 说明                                                                           | 类型      | 默认值    |
+| ------------------- | ------------------------------------------------------------------------------ | --------- | --------- |
+| ...                 | 继承 [nav-bar props](https://vant-contrib.gitee.io/vant/#/zh-CN/nav-bar#props) | _any_     | -         |
+| title               | 标题                                                                           | _string_  | `标题`    |
+| background          | 内容背景                                                                       | _string_  | `#f5f5f5` |
+| noContentPadding    | 内容padding                                                                    | _boolean_ | false     |
+| showNavLeft         | 导航栏左侧                                                                     | _boolean_ | true      |
+| fixed               | 是否固定在顶部                                                                 | _boolean_ | false     |
+| safe-area-inset-top | 是否开启顶部安全区适配                                                         | _boolean_ | false     |
 
 ### Events
 

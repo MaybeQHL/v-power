@@ -12,7 +12,7 @@
       </vp-card>
     </demo-block>
     <demo-block :title="t('classesTitle')">
-      <vp-card :classes="['demo-card']">
+      <vp-card :title="t('cTitle')" :classes="['demo-card']" radius="20px">
         {{ t('content') }}
       </vp-card>
     </demo-block>
@@ -29,12 +29,14 @@ import { useTranslate } from '@demo/use-translate';
 const t = useTranslate({
   'zh-CN': {
     title: '基础使用',
+    cTitle: '标题',
     slotTitle: '插槽使用',
     classesTitle: '定制class',
     content: '内容',
   },
   'en-US': {
     title: 'Base usage',
+    cTitle: 'Title',
     slotTitle: 'Slot usage',
     classesTitle: 'Custom class',
     content: 'content',
@@ -64,7 +66,6 @@ export default defineComponent({
 </script>
 <style lang="css" scoped>
 .demo-card {
-  margin: 0;
-  padding: 0;
+  background-color: pink;
 }
 </style>
