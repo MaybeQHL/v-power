@@ -15,6 +15,11 @@
   </div>
 </div>
 
+### 文档
+[在线文档](https://cdntest-1251804846.cos.ap-guangzhou.myqcloud.com/v-power/index.html)
+
+
+
 ### 提示
 
 > 强烈推荐 [vue-demi](https://github.com/vueuse/vue-demi) (一款兼容 vue2 和 vue3 的包)开发项目

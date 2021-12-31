@@ -15,6 +15,9 @@
   </div>
 </div>
 
+### Doc
+[Online Doc](https://cdntest-1251804846.cos.ap-guangzhou.myqcloud.com/v-power/index.html)
+
 ### Prompt
 
 > highly recommended [vue-demi](https://github.com/vueuse/vue-demi) (a package compatible with VUE2 and VUE3) development project
