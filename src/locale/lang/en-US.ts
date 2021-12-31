@@ -26,5 +26,10 @@ export default {
   vpVerifyButton: {
     text: 'Send Code',
     suffix: 's'
+  },
+  vpVideoUploader: {
+    outSize: 'The video file exceeds ',
+    previewNavTitle: 'Video Preview',
+    previewNavBack: 'Back'
   }
 };

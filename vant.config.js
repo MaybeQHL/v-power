@@ -115,6 +115,10 @@ module.exports = {
                 path: 'verify-button',
                 title: 'VerifyButton 获取验证码',
               },
+              {
+                path: 'video-uploader',
+                title: 'VideoUploader 视频上传',
+              },
             ],
           },
           {
@@ -194,6 +198,10 @@ module.exports = {
               {
                 path: 'verify-button',
                 title: 'VerifyButton',
+              },
+              {
+                path: 'video-uploader',
+                title: 'VideoUploader',
               },
             ],
           },

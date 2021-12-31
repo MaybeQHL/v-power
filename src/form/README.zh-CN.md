@@ -39,7 +39,6 @@ Vue.use(Form);
 ```html
 <template>
   <vp-form
-        :showCancelBtn="true"
         :submitLoading="submitLoading"
         @submit="onSubmit"
         @cancel="onCancel"
@@ -137,7 +136,7 @@ export default defineComponent({
 | submitBtnText     |                               确认按钮文本 |  _string_ |    确认 |
 | submitBtnColor    |                               确认按钮颜色 |  _string_ | #1989fa |
 | submitBtnDisabled |                               确认按钮禁用 | _boolean_ |   false |
-| showCancelBtn     |                               取消按钮显示 | _boolean_ |    true |
+| showCancelBtn     |                               取消按钮显示 | _boolean_ |   false |
 | cancelBtnText     |                               取消按钮文本 |  _string_ |    取消 |
 | cancelBtnColor    |                               取消按钮颜色 |  _string_ |    #fff |
 | showError         |               是否在校验不通过时标红输入框 | _boolean_ |   false |

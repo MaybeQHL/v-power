@@ -145,24 +145,24 @@ export default defineComponent({
     };
     const readImages = async (localIds) => {
       for (let i = 0; i < localIds.length; i++) {
-        // 获取图片url
+        // cn: 获取图片url en: get img url
         const imageUrl = await getImageUrl(localIds[i]);
-        // 将base64转成blob
+        // cn: 将base64转成blob en: base64 to blob
         // const blob = await dataURLToBlob(imageUrl);
-        // 压缩
+        // cn:压缩 en: compress
         // const cprResult = await fileCompressor(blob, { quality: 0.6 });
-        // 上传到微信服务器
+        // cn:上传到微信服务器 en:upload to wx server
         const serverId = await uploadImage(localIds[i]);
-        // 复制一份数组
+        // cn: 复制一份数组 en :copy one.
         const fileList = props.fileList.slice(0);
-        // 添加
+        // add
         fileList.push({
           url: imageUrl,
           serverId,
           // cprResult,
         });
         emit('update:fileList', fileList);
-        // 全部上传完成
+        // all upload completed.
         if (i == localIds.length - 1) {
           Toast.clear();
         }

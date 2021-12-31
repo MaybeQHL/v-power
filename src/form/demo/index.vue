@@ -2,7 +2,6 @@
   <div>
     <demo-block :title="t('title')">
       <vp-form
-        :showCancelBtn="true"
         :submitLoading="submitLoading"
         @submit="onSubmit"
         @cancel="onCancel"

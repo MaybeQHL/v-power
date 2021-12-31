@@ -25,5 +25,10 @@ export default {
   vpVerifyButton: {
     text: '发送验证码',
     suffix: '秒'
+  },
+  vpVideoUploader: {
+    outSize: '该视频文件超过',
+    previewNavTitle: '视频预览',
+    previewNavBack: '返回'
   }
 };

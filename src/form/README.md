@@ -39,7 +39,6 @@ Vue.use(Form);
 ```html
 <template>
   <vp-form
-        :showCancelBtn="true"
         :submitLoading="submitLoading"
         @submit="onSubmit"
         @cancel="onCancel"
@@ -137,7 +136,7 @@ export default defineComponent({
 | submitBtnText     |                                                                 Confirm button text |  _string_ | Confirm |
 | submitBtnColor    |                                                                Confirm button color |  _string_ | #1989fa |
 | submitBtnDisabled |                                                              Disable confirm button | _boolean_ |   false |
-| showCancelBtn     |                                                                  Show cancel button | _boolean_ |    true |
+| showCancelBtn     |                                                                  Show cancel button | _boolean_ |   false |
 | cancelBtnText     |                                                                  Cancel button text |  _string_ |  Cancel |
 | cancelBtnColor    |                                                                 Cancel button color |  _string_ |    #fff |
 | showError         |                      Whether to mark the input box in red if the verification fails | _boolean_ |   false |
