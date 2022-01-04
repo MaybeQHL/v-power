@@ -90,6 +90,10 @@ module.exports = {
                 path: 'locale',
                 title: '国际化',
               },
+              {
+                path: 'parse',
+                title: '代码转换',
+              },
             ],
           },
           {
@@ -173,6 +177,10 @@ module.exports = {
               {
                 path: 'locale',
                 title: 'Locale',
+              },
+              {
+                path: 'parse',
+                title: 'Parse',
               },
             ],
           },

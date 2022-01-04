@@ -19,7 +19,7 @@
 
 > 强烈推荐[vue-demi](https://github.com/vueuse/vue-demi)(一款兼容 vue2 和 vue3 的包)开发项目
 
-> 本组件库示例代码均基于 vue-demi compositional api 演示, options api 方式需自行修改部分代码。
+> 本组件库示例代码均基于 vue-demi compositional api 演示, options api 方式请参考[文档](/#/zh-CN/parse)。
 
 ### 特性
 

@@ -55,8 +55,7 @@
         controls
         ref="videoRef"
         :src="fileList.length > 0 && fileList[0].content"
-        @onloadstart="onLoadStart"
-        @oncanplay="oncanplay"
+        @error="onError"
       ></video>
     </div>
   </div>
@@ -166,6 +165,15 @@ export default defineComponent({
       Toast.fail(`${t('outSize')}${size}`);
     };
     const initVideo = () => {
+      pauseVideo();
+      // auto play
+      if (props.autoPlay) {
+        const videoDom = videoRef.value;
+        videoDom.play();
+        console.log('Video auto play start!');
+      }
+    };
+    const pauseVideo = () => {
       const videoDom = videoRef.value;
       if (videoDom) {
         videoDom.currentTime = 0;
@@ -174,11 +182,12 @@ export default defineComponent({
     };
     const onClickLeft = () => {
       state.isVideoPreview = false;
-      initVideo();
+      pauseVideo();
     };
     const clickPreview = () => {
       console.log(state.fileList);
       state.isVideoPreview = true;
+      initVideo();
     };
     const onClickDel = () => {
       if (state.fileList.length > 0) {
@@ -186,7 +195,7 @@ export default defineComponent({
       }
       emit('update:files', []);
       state.isVideoPreview = false;
-      initVideo();
+      pauseVideo();
     };
     const getName = (item) => {
       if (item.name) {
@@ -197,16 +206,7 @@ export default defineComponent({
         return '';
       }
     };
-    const onLoadStart = () => {};
-    const oncanplay = () => {
-      Toast.clear();
-      // auto play
-      if (props.autoPlay) {
-        const videoDom = videoRef.value;
-        videoDom.play();
-      }
-      state.isVideoPreview = true;
-    };
+    const onError = () => {};
 
     return {
       ...toRefs(state),
@@ -217,9 +217,9 @@ export default defineComponent({
       clickPreview,
       onClickDel,
       getName,
-      onLoadStart,
-      oncanplay,
+      onError,
       mergeProps,
+      videoRef,
     };
   },
 });

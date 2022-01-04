@@ -4,7 +4,7 @@
       <vp-video-uploader v-model:files="files1"> </vp-video-uploader>
     </demo-block>
     <demo-block :title="t('customPreAeraTitle')">
-      <vp-video-uploader v-model:files="files4" :max-count="2">
+      <vp-video-uploader v-model:files="files4" :max-count="2" :autoPlay="true">
         <template #previewCover="item">
           <div style="background: orange; height: 100%">
             {{ item.index }}

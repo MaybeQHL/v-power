@@ -38,6 +38,7 @@
         :submitLoading="submitLoading"
         @submit="onSubmit"
         @cancel="onCancel"
+        :btnRound="true"
       >
         <van-field
           v-model="form.name"
