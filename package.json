@@ -1,6 +1,6 @@
 {
     "name": "@maybecode/v-power",
-    "version": "1.0.15",
+    "version": "1.0.16",
     "description": "Mobile UI Components built on Vue",
     "main": "dist-lib/v3/lib/index.js",
     "module": "dist-lib/v3/es/index.js",
@@ -61,6 +61,7 @@
     },
     "license": "MIT",
     "dependencies": {
+        "@babel/runtime": "^7.16.7",
         "fs-extra": "^10.0.0",
         "vue-demi": "^0.12.1"
     },
