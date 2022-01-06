@@ -91,12 +91,11 @@ export default defineComponent({
 
 ### Props
 
-| 参数         |                                                                              说明 |     类型 | 默认值 |
-| ------------ | --------------------------------------------------------------------------------: | -------: | -----: |
-| ...          | 继承 [vant-button props](https://vant-contrib.gitee.io/vant/#/zh-CN/button#props) |    _any_ |      - |
-|              |
-| requireValue |                                                          依附必填值(通常是手机号) | _string_ |      - |
-| duration     |                                                                       倒计时长(s) | _number_ |     60 |
+| 参数         | 说明                                                                              | 类型     | 默认值 |
+| ------------ | --------------------------------------------------------------------------------- | -------- | ------ |
+| props        | 继承 [vant-button props](https://vant-contrib.gitee.io/vant/#/zh-CN/button#props) | _any_    | -      |
+| requireValue | 依附必填值(通常是手机号)                                                          | _string_ | -      |
+| duration     | 倒计时长(s)                                                                       | _number_ | 60     |
 
 ### Events
 

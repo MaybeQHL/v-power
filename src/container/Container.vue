@@ -9,7 +9,7 @@
       :safe-area-inset-top="safeAreaInsetTop"
       v-bind="mergeProps"
     >
-      <template #right v-if="$slots.headLeft && showNavLeft">
+      <template #left v-if="$slots.headLeft && showNavLeft">
         <slot name="headLeft"></slot>
       </template>
       <template #right>

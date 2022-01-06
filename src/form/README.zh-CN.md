@@ -130,20 +130,20 @@ export default defineComponent({
 
 ### Props
 
-| 参数              |                                       说明 |      类型 |  默认值 |
-| ----------------- | -----------------------------------------: | --------: | ------: |
-| showSubmitBtn     |                               确认按钮显示 | _boolean_ |    true |
-| submitBtnText     |                               确认按钮文本 |  _string_ |    确认 |
-| submitBtnColor    |                               确认按钮颜色 |  _string_ | #1989fa |
-| submitBtnDisabled |                               确认按钮禁用 | _boolean_ |   false |
-| showCancelBtn     |                               取消按钮显示 | _boolean_ |   false |
-| cancelBtnText     |                               取消按钮文本 |  _string_ |    取消 |
-| cancelBtnColor    |                               取消按钮颜色 |  _string_ |    #fff |
-| showError         |               是否在校验不通过时标红输入框 | _boolean_ |   false |
-| showErrorMsg      | 是否在校验不通过时在输入框下方展示错误提示 | _boolean_ |    true |
-| customError       |                是否定制错误提示(关闭Toast) | _boolean_ |   false |
-| labelWidth        |                          表单项 label 宽度 |  _string_ |   6.2em |
-| btnRound          |                             是否为圆形按钮 | _boolean_ |   false |
+| 参数              | 说明                                       | 类型      | 默认值  |
+| ----------------- | ------------------------------------------ | --------- | ------- |
+| showSubmitBtn     | 确认按钮显示                               | _boolean_ | true    |
+| submitBtnText     | 确认按钮文本                               | _string_  | 确认    |
+| submitBtnColor    | 确认按钮颜色                               | _string_  | #1989fa |
+| submitBtnDisabled | 确认按钮禁用                               | _boolean_ | false   |
+| showCancelBtn     | 取消按钮显示                               | _boolean_ | false   |
+| cancelBtnText     | 取消按钮文本                               | _string_  | 取消    |
+| cancelBtnColor    | 取消按钮颜色                               | _string_  | #fff    |
+| showError         | 是否在校验不通过时标红输入框               | _boolean_ | false   |
+| showErrorMsg      | 是否在校验不通过时在输入框下方展示错误提示 | _boolean_ | true    |
+| customError       | 是否定制错误提示(关闭Toast)                | _boolean_ | false   |
+| labelWidth        | 表单项 label 宽度                          | _string_  | 6.2em   |
+| btnRound          | 是否为圆形按钮                             | _boolean_ | false   |
 
 
 ### Events

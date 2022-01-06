@@ -94,7 +94,6 @@ export default defineComponent({
 | parameters   |                                                                             explain |     type | default |
 | ------------ | ----------------------------------------------------------------------------------: | -------: | ------: |
 | ...          | Extend [vant-button props](https://vant-contrib.gitee.io/vant/#/en-US/button#props) |    _any_ |       - |
-|              |
 | requireValue |                                      Requre value(It's usually a cell phone number) | _string_ |       - |
 | duration     |                                                                         duration(s) | _number_ |      60 |
 

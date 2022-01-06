@@ -22,6 +22,5 @@ export function genVeturConfig() {
       outputDir: VETUR_DIR,
       ...options,
     });
-    return;
   }
 }

@@ -42,7 +42,7 @@ Vue.use(Container);
 
 | 参数                | 说明                                                                           | 类型      | 默认值    |
 | ------------------- | ------------------------------------------------------------------------------ | --------- | --------- |
-| ...                 | 继承 [nav-bar props](https://vant-contrib.gitee.io/vant/#/zh-CN/nav-bar#props) | _any_     | -         |
+| props               | 继承 [nav-bar props](https://vant-contrib.gitee.io/vant/#/zh-CN/nav-bar#props) | _any_     | -         |
 | title               | 标题                                                                           | _string_  | `标题`    |
 | background          | 内容背景                                                                       | _string_  | `#f5f5f5` |
 | noContentPadding    | 内容padding                                                                    | _boolean_ | false     |

@@ -146,13 +146,13 @@ export default defineComponent({
 
 ### Props
 
-| 参数                                        |                                                                                  说明 |      类型 |   默认值 |
-| ------------------------------------------- | ------------------------------------------------------------------------------------: | --------: | -------: |
-| ...                                         | 继承 [vant-uploader props](https://vant-contrib.gitee.io/vant/#/zh-CN/uploader#props) |     _any_ |        - |
-| v3: ```v-model:files``` v2:```files.sync``` |                                                                  文件列表（双向绑定） |  _string_ |       [] |
-| disabled                                    |                                                            是否禁用上传区域和预览区域 | _boolean_ |    false |
-| maxSize                                     |                                                    支持单个最大文件大小, 单位```kb``` |  _number_ | Infinity |
-| autoPlay                                    |                                                                          自动播放视频 | _boolean_ |     true |
+| 参数                                        | 说明                                                                                  | 类型      | 默认值   |
+| ------------------------------------------- | ------------------------------------------------------------------------------------- | --------- | -------- |
+| props                                       | 继承 [vant-uploader props](https://vant-contrib.gitee.io/vant/#/zh-CN/uploader#props) | _any_     | -        |
+| v3: ```v-model:files``` v2:```files.sync``` | 文件列表（双向绑定）                                                                  | _string_  | []       |
+| disabled                                    | 是否禁用上传区域和预览区域                                                            | _boolean_ | false    |
+| maxSize                                     | 支持单个最大文件大小, 单位```kb```                                                    | _number_  | Infinity |
+| autoPlay                                    | 自动播放视频                                                                          | _boolean_ | true     |
 
 ### Slots
 

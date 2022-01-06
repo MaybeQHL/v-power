@@ -114,11 +114,11 @@ Vue.use(WxImgsUploader);
 
 ### Props
 
-| 参数                                                |                    说明 |         类型 | 默认值 |
-| --------------------------------------------------- | ----------------------: | -----------: | -----: |
-| v-model:fileList (vue3.x) 或 fileList.sync (vue2.x) |                图片列表 | _FileItem[]_ |     [] |
-| wxSdk                                               | 已经初始化权限的微信sdk |     _object_ |      - |
-| title                                               |            上传区域文字 |     _string_ |      - |
-| icon                                                |           上传区域 icon |     _string_ |      - |
-| count                                               |        最大上传图片数量 |     _number_ |      9 |
-| size                                                |            上传区域大小 |     _string_ |   22vw |
+| 参数                                                | 说明                    | 类型         | 默认值 |
+| --------------------------------------------------- | ----------------------- | ------------ | ------ |
+| v-model:fileList (vue3.x) 或 fileList.sync (vue2.x) | 图片列表                | _FileItem[]_ | []     |
+| wxSdk                                               | 已经初始化权限的微信sdk | _object_     | -      |
+| title                                               | 上传区域文字            | _string_     | -      |
+| icon                                                | 上传区域 icon           | _string_     | -      |
+| count                                               | 最大上传图片数量        | _number_     | 9      |
+| size                                                | 上传区域大小            | _string_     | 22vw   |

@@ -75,11 +75,11 @@ Vue.use(Card);
 
 ### Props
 
-| 参数    |     说明 |     类型 | 默认值 |
-| ------- | -------: | -------: | -----: |
-| title   |     标题 | _string_ |   标题 |
-| classes | 定制样式 |  _array_ |     [] |
-| radius  | 边框半径 | _string_ |   10px |
+| 参数    | 说明     | 类型     | 默认值 |
+| ------- | -------- | -------- | ------ |
+| title   | 标题     | _string_ | 标题   |
+| classes | 定制样式 | _array_  | []     |
+| radius  | 边框半径 | _string_ | 10px   |
 
 ### Slots
 
