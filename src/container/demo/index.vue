@@ -12,6 +12,7 @@
 import { useTranslate } from '@demo/use-translate';
 import { defineComponent, toRefs } from 'vue-demi';
 import Container from '..';
+import { useRouter } from 'vue-router';
 
 const t = useTranslate({
   'zh-CN': {
@@ -33,8 +34,10 @@ export default defineComponent({
     [Container.name]: Container,
   },
   setup() {
+    const router = useRouter();
     const clickLeft = () => {
       console.log('vp-container导航左边点击了');
+      router.go(-1);
     };
     return {
       clickLeft,

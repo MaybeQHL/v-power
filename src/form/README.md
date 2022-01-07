@@ -132,6 +132,7 @@ export default defineComponent({
 
 | Parameter         |                                                                             explain |      type | default |
 | ----------------- | ----------------------------------------------------------------------------------: | --------: | ------: |
+| submitLoading     |                                                                             loading | _boolean_ |   false |
 | showSubmitBtn     |                                                                 Show confirm button | _boolean_ |    true |
 | submitBtnText     |                                                                 Confirm button text |  _string_ | Confirm |
 | submitBtnColor    |                                                                Confirm button color |  _string_ | #1989fa |

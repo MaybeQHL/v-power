@@ -132,6 +132,7 @@ export default defineComponent({
 
 | 参数              | 说明                                       | 类型      | 默认值  |
 | ----------------- | ------------------------------------------ | --------- | ------- |
+| submitLoading     | 确认按钮加载状态                           | _boolean_ | false   |
 | showSubmitBtn     | 确认按钮显示                               | _boolean_ | true    |
 | submitBtnText     | 确认按钮文本                               | _string_  | 确认    |
 | submitBtnColor    | 确认按钮颜色                               | _string_  | #1989fa |

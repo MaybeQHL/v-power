@@ -3,7 +3,7 @@
     <van-nav-bar
       :title="title"
       :left-arrow="showNavLeft"
-      @click-left="clickLeft"
+      @click-left.prevent="clickLeft"
       :left-text="leftText"
       :fixed="fixed"
       :safe-area-inset-top="safeAreaInsetTop"

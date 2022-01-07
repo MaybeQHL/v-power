@@ -225,14 +225,14 @@ export async function build(cmd: { watch?: boolean } = { watch: false }) {
 
     const buildV2 = async () => {
       setBuildVersion('v2');
-      await execa('vue-demi-switch 2 vue2');
+      await execa('vue-demi-switch 2');
       console.log('Start build for ', process.env.BUILD_VERSION);
 
       await build();
     };
     const buildV3 = async () => {
       setBuildVersion('v3');
-      await execa('vue-demi-switch 3 vue3');
+      await execa('vue-demi-switch 3');
       console.log('Start build for ', process.env.BUILD_VERSION);
 
       await build();
