@@ -60,14 +60,15 @@ module.exports = {
       'import',
       {
         libraryName: '@maybecode/v-power',
-        libraryDirectory: `dist-lib/${getMode()}`,
+        libraryDirectory: `dist-lib/${getMode()}/es`,
         style: (name, file) => {
-          return `/${name}/style`;
+          return `${name}/index.css`;
         },
       },
     ],
   ],
 };
+
 ```
 
 #### vite

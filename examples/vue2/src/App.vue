@@ -4,33 +4,26 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
-    <router-view/> -->
+    <router-view/>-->
 
     <vp-container title="标题">
       <button @click="searchData">搜索</button>
-      <vp-list
-        ref="mList"
-        :list.sync="list"
-        :total="total"
-        :requestFn="requestFn"
-      >
-        <template #loading> 加载中... </template>
-        <div v-for="item in list" style="height: 150px" :key="item.name">
-          {{ item }}
-        </div>
+      <vp-list ref="mList" :list.sync="list" :total="total" :requestFn="requestFn">
+        <template #loading>加载中...</template>
+        <div v-for="item in list" style="height: 150px" :key="item.name">{{ item }}</div>
       </vp-list>
     </vp-container>
   </div>
 </template>
 <script>
-import vPower from '@maybecode/v-power';
-import '@maybecode/v-power/dist-lib/v2/lib/index.css';
+import { Container, List } from '@maybecode/v-power';
 import Vue from 'vue';
 import axios from 'axios';
-Vue.use(vPower);
+
 export default {
   components: {
-    // [Container.name]: Container,
+    [Container.name]: Container,
+    [List.name]: List
   },
   data() {
     return {
