@@ -16,7 +16,7 @@
 </div>
 
 ### 文档
-[在线文档](https://cdntest-1251804846.cos.ap-guangzhou.myqcloud.com/v-power/index.html)
+[在线文档](https://null_639_5368.gitee.io/v-power)
 
 
 

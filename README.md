@@ -16,7 +16,7 @@
 </div>
 
 ### Doc
-[Online Doc](https://cdntest-1251804846.cos.ap-guangzhou.myqcloud.com/v-power/index.html)
+[Online Doc](https://null_639_5368.gitee.io/v-power)
 
 ### Prompt
 
