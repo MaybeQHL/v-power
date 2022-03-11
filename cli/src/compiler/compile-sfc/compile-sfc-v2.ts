@@ -133,6 +133,7 @@ export async function compileSfc(filePath: string): Promise<any> {
     ...styles.map((style, index: number) => {
       const cssFilePath = getSfcStylePath(filePath, style.lang || 'css', index);
 
+    
       let styleSource = trim(style.content);
 
       if (style.scoped) {
@@ -150,6 +151,7 @@ export async function compileSfc(filePath: string): Promise<any> {
       return compileStyle(cssFilePath);
     })
   );
+
 
   return Promise.all(tasks);
 }

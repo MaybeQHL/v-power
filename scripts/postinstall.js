@@ -7,6 +7,7 @@ const pkg = require('../package.json');
 const fse = require('fs-extra');
 
 async function switchVersion() {
+  if (process.env.BUILD_VERSION) return;
   const { version } = vue;
   const isVue2 = +version.split('.')[0] == 2;
   console.log('vue version:', version.split('.')[0])

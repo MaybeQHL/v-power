@@ -126,9 +126,9 @@ export async function compileSfc(filePath: string): Promise<any> {
 
       writeFileSync(cssFilePath, styleSource);
 
+
       return compileStyle(cssFilePath);
     })
   );
-
   return Promise.all(tasks);
 }

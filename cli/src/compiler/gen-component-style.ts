@@ -40,11 +40,11 @@ function getRelativePath(component: string, style: string, ext: string) {
 
 const OUTPUT_CONFIG = [
   {
-    dir: getEsDir(),
+    dir: getEsDir,
     template: (dep: string) => `import '${dep}';`,
   },
   {
-    dir: getLibDir(),
+    dir: getLibDir,
     template: (dep: string) => `require('${dep}');`,
   },
 ];
@@ -60,7 +60,7 @@ function genEntry(params: {
   const depsPath = deps.map((dep) => getRelativePath(component, dep, ext));
 
   OUTPUT_CONFIG.forEach(({ dir, template }) => {
-    const outputDir = join(dir, component, 'style');
+    const outputDir = join(dir(), component, 'style');
     const outputFile = join(outputDir, filename);
 
     let content = '';
@@ -73,6 +73,7 @@ function genEntry(params: {
 
     content += depsPath.map(template).join('\n');
     content = content.replace(new RegExp('\\' + sep, 'g'), '/');
+    // console.log('outputFile', outputFile, process.env.BUILD_VERSION)
     outputFileSync(outputFile, content);
   });
 }

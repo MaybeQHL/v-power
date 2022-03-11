@@ -62,7 +62,7 @@ module.exports = {
         libraryName: '@maybecode/v-power',
         libraryDirectory: `dist-lib/${getMode()}/es`,
         style: (name, file) => {
-          return `${name}/index.css`;
+          return `${name}/style`;
         },
       },
     ],
